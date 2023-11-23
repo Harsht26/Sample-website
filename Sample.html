@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header css style */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ff0000;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+	}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ff0000;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>The Marvel Fan Book</h1>
+  <p>The hardest choices require the strongest wills .</p>
+</div>
+
+<div class="topnav">
+  <a href="C:/Users/Admin/Desktop/mbk.html">Home</a>
+  <a href="#">Collection</a>
+  <a href="#">Mechandise</a>
+  <a href="#" style="float:right">News</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>New Collection</h2>
+      <h5>Check out our upcoming collection in the collection section....</h5>
+        
+        <img src="upcoming.jpg" alt="upcoming" width="100%" height="300px">
+	   
+   
+     <p>For the true Marvel fans..</p>
+      <p>Marvel has annunced the upcoimg trill advanture of all the new collection till 2024. We will promise you to provide all the keen information about all the upcoming projects you are waiting for. 
+         Stay tune to stay updated</p>
+    </div>
+    <div class="card">
+      <h2>Winter Sale</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+     
+        <img src="upcoming_1.jpg" alt="upcoming" width="100%" height="300px">
+   
+      <p>For the true Marvel fans..</p>
+      <p>We are here with our new winter collection . Check out the new marvel collection for winters in new exciting prises.
+         Stay tune to stay updated</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+    <img src="upcoming_7.jpg" alt="upcoming" width="100%" height="150px">
+      <p>From one fan to another we are here to provide everything what you all seek for at one place</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+       <img src="upcoming_8.jpg" alt="upcoming" width="100%" height="300px">
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>www.marvelfnclub.com</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Until we meet next !</h2>
+</div>
+
+</body>
+</html>
